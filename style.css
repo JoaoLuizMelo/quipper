@@ -131,7 +131,11 @@ h1 {
 
 .getDiscount:hover {
     background: #EB5757;
-    opacity: 0.4;
+    opacity: 0.9;
+}
+
+.getDiscount:active{
+    opacity: .3;
 }
 
 .firstPartText {
@@ -176,7 +180,7 @@ h1 {
     margin: 0 56px 0 0;
 }
 
-.firstFooterlass{
+.firstFooterlass {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -248,3 +252,107 @@ h1 {
     display: inline-block;
     border-radius: 20px;
 }
+
+.thirdSection {
+    margin: 60px 115px 60px 115px;
+}
+
+.thirdPartTitle {
+    width: 643px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-bottom: 4px;
+}
+
+.thirdPartSecondTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.675em;
+    color: #4F4F4F;
+    margin-bottom: 60px;
+}
+
+.fourthSection {
+    padding: 60px 0 0 115px;
+    background: #F2F2F2;
+}
+
+.fourthSectionTitle {
+    width: 1170px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+}
+
+.fourthSectionText {
+    width: 498px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: #333333;
+    position: absolute;
+    left: 284px;
+    bottom: -1522px;
+}
+
+input {
+    width: 329px;
+    height: 36px;
+    margin-right: 91px;
+    border-style: none none solid none;
+    background-color: #F2F2F2;
+    margin-bottom: 68px;
+}
+
+input::placeholder {
+    width: 84px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: #828282; 
+}
+.callMe{
+    width: 236px;
+    height: 70px;
+    background: #EB5757;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 582px;
+    margin-bottom: 60px;
+}
+.callMe:hover{
+    opacity: .9;
+}
+
+.callMe:active{
+    opacity: .4;
+}
+

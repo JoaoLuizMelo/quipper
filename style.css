@@ -356,3 +356,41 @@ input::placeholder {
     opacity: .4;
 }
 
+.lastSection {
+    height: 391px;
+    padding: 60px 115px;
+}
+
+.lastSectionimg{
+    width: 170px;
+    height: 87px;
+    margin-bottom: 20px;
+    
+}
+
+.lastContainerOne{
+    width: 170px;
+    display: inline-block;
+    margin-right: 130px;
+}
+
+.lastSectionText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: #333333;
+   
+}
+
+.lastContainerTwo{
+    width: 64px;
+    display:inline-block;
+}
+
+
+
+
+
